@@ -1,15 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
+    background-color: #333;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffffb5;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -19,14 +20,20 @@ h1 {
     color: #333;
 }
 
-form {
-    margin-bottom: 20px;
+.form-group {
+    margin-bottom: 15px;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
+.btn-primary {
+    width: 100%;
+    background-color: rgb(17, 161, 12);
+    border-color: rgb(17, 161, 12);
+    
+}
+
+.btn-primary:hover{
+    background-color: rgb(16, 135, 11);
+    border-color: rgb(16, 135, 11);
 }
 
 input[type="text"] {
@@ -40,16 +47,14 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #cbbe08;
+    color: #7818af;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
+
 
 ul {
     list-style-type: none;
@@ -74,7 +79,7 @@ li span {
 li button {
     float: right;
     background-color: #dc3545;
-    color: #fff;
+    color: #7e2b2b;
     border: none;
     padding: 5px 10px;
     border-radius: 4px;
@@ -83,4 +88,23 @@ li button {
 
 li button:hover {
     background-color: #c82333;
+}
+
+.form-group-num{
+    width: 97.2%;
+}
+
+.btn-warning {
+    background-color: #ffda20;
+    border-color: #ffda20;
+}
+
+.btn-danger{
+    background-color: rgb(255, 46, 46);
+    border-color:rgb(255, 46, 46) ;
+}
+
+.btn-danger :hover {
+    background-color: rgb(223, 42, 42);
+    border-color: rgb(223, 42, 42);
 }
